@@ -49,51 +49,100 @@
             </div>
             <form action="" class="d-flex">
                 <input type="text" class="form-control me-2">
-                <button type="submit" class="btn btn-primary navbarBtn">Buscar</button>
+                <button type="submit" class="btn btn-primary btnItem">Buscar</button>
             </form>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="carousel-item active">
-            <div class="carouselContainer">
-                <h1>Example headlline</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare, dolor et bibendum viverra,
-                    orci
-                    lorem laoreet diam, et lacinia ipsum eros nec velit. Sed fringilla leo lacinia leo convallis, in
-                    pulvinar velit feugiat. Suspendisse vitae euismod leo. In accumsan ante metus. Aliquam posuere,
-                    libero a
-                    congue semper, eros ante mollis eros, vitae convallis diam ex et turpis. Maecenas eget dolor quam.
-                    Mauris massa orci, aliquam vitae nibh ut, congue accumsan nisl. Nam vulputate laoreet ante eget
-                    rutrum.
-                    Maecenas in libero at leo cursus sollicitudin ut non velit.</p>
-                <a href="" class="btn btn-lg btn-primary">
-                    Ver mas.
-                </a>
-            </div>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+                <div class="carousel-item active" >
+                    <div class="imagen-fondo-carousel" style="background-image: url(/img/receta1.jpg) ;"></div>
+                    <div class="carouselContainer text-light">
+                        <h1>Example headlline</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare, dolor et bibendum
+                            viverra,
+                            orci
+                            lorem laoreet diam, et lacinia ipsum eros nec velit. Sed fringilla leo lacinia leo
+                            convallis, in
+                            pulvinar velit feugiat. Suspendisse vitae euismod leo. In accumsan ante metus. Aliquam
+                            posuere,
+                            libero a
+                            congue semper, eros ante mollis eros, vitae convallis diam ex et turpis. Maecenas eget dolor
+                            quam.
+                            Mauris massa orci, aliquam vitae nibh ut, congue accumsan nisl. Nam vulputate laoreet ante
+                            eget
+                            rutrum.
+                            Maecenas in libero at leo cursus sollicitudin ut non velit.</p>
+                        <a href="" class="btn btn-lg btn-primary btnItem ">
+                            Ver mas.
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item" >
+                    <div class="imagen-fondo-carousel" style="background-image: url(/img/receta2.jpg) ;"></div>
+                    <div class="carouselContainer text-light">
+                        <h1>Example headlline</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare, dolor et bibendum
+                            viverra,
+                            orci
+                            lorem laoreet diam, et lacinia ipsum eros nec velit. Sed fringilla leo lacinia leo
+                            convallis, in
+                            pulvinar velit feugiat. Suspendisse vitae euismod leo. In accumsan ante metus. Aliquam
+                            posuere,
+                            libero a
+                            congue semper, eros ante mollis eros, vitae convallis diam ex et turpis. Maecenas eget dolor
+                            quam.
+                            Mauris massa orci, aliquam vitae nibh ut, congue accumsan nisl. Nam vulputate laoreet ante
+                            eget
+                            rutrum.
+                            Maecenas in libero at leo cursus sollicitudin ut non velit.</p>
+                        <a href="" class="btn btn-lg btn-primary btnItem">
+                            Ver lo mismo.
+                        </a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="imagen-fondo-carousel" style="background-image: url(/img/receta3.jpg) ;"></div>
+                    <div class="carouselContainer text-light">
+                        <h1>Example headlline</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare, dolor et bibendum
+                            viverra,
+                            orci
+                            lorem laoreet diam, et lacinia ipsum eros nec velit. Sed fringilla leo lacinia leo
+                            convallis, in
+                            pulvinar velit feugiat. Suspendisse vitae euismod leo. In accumsan ante metus. Aliquam
+                            posuere,
+                            libero a
+                            congue semper, eros ante mollis eros, vitae convallis diam ex et turpis. Maecenas eget dolor
+                            quam.
+                            Mauris massa orci, aliquam vitae nibh ut, congue accumsan nisl. Nam vulputate laoreet ante
+                            eget
+                            rutrum.
+                            Maecenas in libero at leo cursus sollicitudin ut non velit.</p>
+                        <a href="" class="btn btn-lg btn-primary btnItem">
+                            Ver menos.
+                        </a>
+                    </div>
+                </div>
+
         </div>
 
-        <div class="carousel-item active">
-            <div class="carouselContainer">
-                <h1>Example headlline</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare, dolor et bibendum viverra,
-                    orci
-                    lorem laoreet diam, et lacinia ipsum eros nec velit. Sed fringilla leo lacinia leo convallis, in
-                    pulvinar velit feugiat. Suspendisse vitae euismod leo. In accumsan ante metus. Aliquam posuere,
-                    libero a
-                    congue semper, eros ante mollis eros, vitae convallis diam ex et turpis. Maecenas eget dolor quam.
-                    Mauris massa orci, aliquam vitae nibh ut, congue accumsan nisl. Nam vulputate laoreet ante eget
-                    rutrum.
-                    Maecenas in libero at leo cursus sollicitudin ut non velit.</p>
-                <a href="" class="btn btn-lg btn-primary">
-                    Ver mas.
-                </a>
-            </div>
-        </div>
+        <a href="#myCarousel" class="carousel-control-prev" role="button" data-bs-slide="prev"> 
+            <span class="sr-only"></span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
 
+        <a href="#myCarousel" class="carousel-control-next" role="button" data-bs-slide="next"> 
+            <span class="sr-only"></span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
     </div>
-
-
 
 
 
