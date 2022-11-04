@@ -58,8 +58,15 @@ background-size: cover;
     background: #fcfcda;
 }
 
+.footerCSS{
+background: #b0f2c2;
+position: relative;
+}
 
-
+.wrapperCSS{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /*
