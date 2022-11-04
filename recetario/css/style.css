@@ -44,6 +44,20 @@
     opacity: .7;
 }
 
+.imagen-fondo-card{
+height: 13em;
+background-position: center;
+background-size: cover;
+}
+
+.card-carousel-item{
+    height: 20em;
+}
+
+.card-bg{
+    background: #fcfcda;
+}
+
 
 
 
