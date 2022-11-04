@@ -14,29 +14,40 @@
     font-size: 20px;
 }
 
-.navbarBtn{
+.btnItem{
     background-color: #ffb6af;
+    border: white;
 }
 
 .carousel-item{
-    height: 40rem;
-    background: #fcfcda;
+    height: 35rem;
+    background: #000;
     margin-top: 6rem;
     position: relative;
+    background-position: center;
+    background-size:cover;
 }
 
 .carouselContainer{
     position: absolute;
     bottom: 0;
     left: 6rem;
-    right: 20rem;
+    right: 60rem;
     padding-bottom: 50px;
 }
 
-.imgLogin{
-background-position: center center;
-height: 60px;
-width: 200px;
+.imagen-fondo-carousel{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: .7;
+}
+
+
 
 }
 
