@@ -11,6 +11,10 @@
     font-size: 20px;
 }
 
+.navbarSpace{
+    margin-left: 3em;
+}
+
 .btnItem{
     background-color: #ffb6af;
     border: white;
