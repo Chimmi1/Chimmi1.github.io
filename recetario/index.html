@@ -20,7 +20,7 @@
 <body>
     <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark">
         <div class="container">
-            <a href="#" class="navbar-brand mb-0">
+            <a href="index.html" class="navbar-brand mb-0">
                 <img class="d-inline-block align-top" src="/img/indentificador.png" width="200" height="60" />
             </a>
 
@@ -32,14 +32,14 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav navbarItems">
                     <li class="nav-item active"><a class="nav-link active" href="index.html">Inicio</a></li>
-                    <li class="nav-item active"><a class="nav-link active" href="">Recetas</a></li>
+                    <li class="nav-item active"><a class="nav-link active" href="topRecetas.html">Recetas</a></li>
                     <li class="nav-item active"><a class="nav-link active" href="">Tips</a></li>
                     <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" id="navbarDropdown"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Categorias</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a href="" class="dropdown-item">Sopas</a></li>
-                            <li><a href="" class="dropdown-item">Ensaladas</a></li>
-                            <li><a href="" class="dropdown-item">Miscelaneos</a></li>
+                            <li><a href="topRecetas.html" class="dropdown-item">Sopas</a></li>
+                            <li><a href="topRecetas.html" class="dropdown-item">Ensaladas</a></li>
+                            <li><a href="topRecetas.html" class="dropdown-item">Miscelaneos</a></li>
 
                         </ul>
                     </li>
@@ -48,6 +48,10 @@
                     <input type="text" class="form-control me-2">
                     <button type="submit" class="btn btn-primary btnItem">Buscar</button>
                 </form>
+                <a href="Login.html">
+                    <img src="/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
+                </a>
+                <!--
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                               Dropdown button
@@ -58,6 +62,7 @@
                               <a class="dropdown-item" href="#">Something else here</a>
                             </div>
                           </div>
+                          -->
             </div>
         </div>
     </nav>
@@ -70,7 +75,9 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <div class="imagen-fondo-carousel" style="background-image: url(/img/receta1.jpg) ;"></div>
+                <a href="" class="aDecoration">
+                    <div class="imagen-fondo-carousel" style="background-image: url(/img/receta1.jpg) ;"></div>
+                </a>
                 <div class="carouselContainer text-light">
                     <h1>Explora nuestro repertorio culinario</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare, dolor et bibendum
@@ -93,7 +100,9 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="imagen-fondo-carousel" style="background-image: url(/img/receta2.jpg) ;"></div>
+                <a href="" class="aDecoration">
+                    <div class="imagen-fondo-carousel" style="background-image: url(/img/receta2.jpg) ;"></div>
+                </a>
                 <div class="carouselContainer text-light">
                     <h1>Mira las nuevas noticias sobre cocina</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare, dolor et bibendum
@@ -116,7 +125,9 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="imagen-fondo-carousel" style="background-image: url(/img/receta3.jpg) ;"></div>
+                <a href="" class="aDecoration">
+                    <div class="imagen-fondo-carousel" style="background-image: url(/img/receta3.jpg) ;"></div>
+                </a>
                 <div class="carouselContainer text-light">
                     <h1>Cuando sea grande quiero ser astronauta</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare, dolor et bibendum
@@ -178,45 +189,54 @@
                                 <div class="row">
 
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta1.jpg">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Mucha comida</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta1.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Mucha comida</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
+
+                                                </div>
 
                                             </div>
-
-                                        </div>
+                                        </a>
                                     </div>
 
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta2.jpg">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Mas comida</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta2.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Mas comida</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
 
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta3.jpg">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Comida sobre comida</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta3.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Comida sobre comida</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
 
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -224,44 +244,53 @@
                                 <div class="row">
 
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta4.png">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Comase esta</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta4.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Comase esta</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
+
+                                                </div>
 
                                             </div>
-
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta5.jpg">
-                                            <div class="card-body">
-                                                <h4 class="card-title">El de la derecha se la come</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta5.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">El de la derecha se la come</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
 
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta6.png">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Me la comi</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta6.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Me la comi</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
 
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -298,45 +327,54 @@
                                 <div class="row">
 
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta1.jpg">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Mucha comida</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta1.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Mucha comida</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
+
+                                                </div>
 
                                             </div>
-
-                                        </div>
+                                        </a>
                                     </div>
 
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta2.jpg">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Mas comida</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta2.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Mas comida</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
 
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta3.jpg">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Comida sobre comida</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta3.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Comida sobre comida</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
 
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
 
                                 </div>
@@ -345,44 +383,53 @@
                                 <div class="row">
 
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta4.png">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Comase esta</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta4.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Comase esta</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
+
+                                                </div>
 
                                             </div>
-
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta5.jpg">
-                                            <div class="card-body">
-                                                <h4 class="card-title">El de la derecha se la come</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta5.jpg">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">El de la derecha se la come</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
 
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                     <div class="col-md-4 mb-3">
-                                        <div class="card card-bg">
-                                            <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                src="/img/receta6.png">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Me la comi</h4>
-                                                <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                                    Sed fringilla leo lacinia leo
-                                                    convallis</p>
+                                        <a href="" class="aDecoration">
+                                            <div class="card card-bg">
+                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
+                                                    src="/img/receta6.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Me la comi</h4>
+                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
+                                                        velit.
+                                                        Sed fringilla leo lacinia leo
+                                                        convallis</p>
 
+                                                </div>
                                             </div>
-                                        </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -408,42 +455,48 @@
                         <div class="row">
 
                             <div class="col-md-4 mb-3">
-                                <div class="card card-bg">
-                                    <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta1.jpg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Mucha comida</h4>
-                                        <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit. Sed
-                                            fringilla leo lacinia leo
-                                            convallis</p>
+                                <a href="" class="aDecoration">
+                                    <div class="card card-bg">
+                                        <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta1.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Mucha comida</h4>
+                                            <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit. Sed
+                                                fringilla leo lacinia leo
+                                                convallis</p>
+
+                                        </div>
 
                                     </div>
-
-                                </div>
+                                </a>
                             </div>
 
                             <div class="col-md-4 mb-3">
-                                <div class="card card-bg">
-                                    <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta2.jpg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Mas comida</h4>
-                                        <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit. Sed
-                                            fringilla leo lacinia leo
-                                            convallis</p>
+                                <a href="" class="aDecoration">
+                                    <div class="card card-bg">
+                                        <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta2.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Mas comida</h4>
+                                            <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit. Sed
+                                                fringilla leo lacinia leo
+                                                convallis</p>
 
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                             <div class="col-md-4 mb-3">
-                                <div class="card card-bg">
-                                    <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta3.jpg">
-                                    <div class="card-body">
-                                        <h4 class="card-title">Comida sobre comida</h4>
-                                        <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit. Sed
-                                            fringilla leo lacinia leo
-                                            convallis</p>
+                                <a href="" class="aDecoration">
+                                    <div class="card card-bg">
+                                        <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta3.jpg">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Comida sobre comida</h4>
+                                            <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit. Sed
+                                                fringilla leo lacinia leo
+                                                convallis</p>
 
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
 
                         </div>
