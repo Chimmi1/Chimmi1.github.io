@@ -1,3 +1,7 @@
+<?php
+include("includes/bd.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,7 +25,7 @@
     <header>
     <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark">
         <div class="container">
-            <a href="index.html" class="navbar-brand mb-0">
+            <a href="index.php" class="navbar-brand mb-0">
                 <img class="d-inline-block align-top" src="/img/indentificador.png" width="200" height="60" />
             </a>
 
@@ -32,8 +36,8 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav navbarItems">
-                    <li class="nav-item active"><a class="nav-link active" href="index.html">Inicio</a></li>
-                    <li class="nav-item active"><a class="nav-link active" href="topRecetas.html">Recetas</a></li>
+                    <li class="nav-item active"><a class="nav-link active" href="index.php">Inicio</a></li>
+                    <li class="nav-item active"><a class="nav-link active" href="topRecetas.php">Recetas</a></li>
                     <li class="nav-item active"><a class="nav-link active" href="">Tips</a></li>
                     <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" id="navbarDropdown"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Categorias</a>
