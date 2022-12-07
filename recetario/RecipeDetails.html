@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recetas guardadas</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -20,14 +20,14 @@
         <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark">
             <div class="container">
                 <a href="index.html" class="navbar-brand mb-0">
-                    <img class="d-inline-block align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
+                    <img class="d-inline-block align-top" src="img/indentificador.png" width="200" height="60" />
                 </a>
-    
+
                 <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-    
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbarItems">
                         <li class="nav-item active"><a class="nav-link active" href="index.html">Inicio</a></li>
@@ -39,7 +39,7 @@
                                 <li><a href="topRecetas.html" class="dropdown-item">Sopas</a></li>
                                 <li><a href="topRecetas.html" class="dropdown-item">Ensaladas</a></li>
                                 <li><a href="topRecetas.html" class="dropdown-item">Miscelaneos</a></li>
-    
+
                             </ul>
                         </li>
                     </ul>
@@ -48,7 +48,7 @@
                         <button type="submit" class="btn btn-primary btnItem">Buscar</button>
                     </form>
                     <a href="Login.html">
-                        <img src="../recetario/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
+                        <img src="img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
                     </a>
                     <!--
                             <div class="dropdown">
@@ -68,57 +68,97 @@
     </header>
     <!--- FIN del header-->
 
-    <section class="container " >
-        <div class=" d-flex tableUser text-center m-5 "> 
-        <h2>Recetas guardadas</h2>
-        <table class="table table-responsive-md">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Platillo</th>
-                <th scope="col">Titulo</th>
-                <th scope="col">Descripcion</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr >
-                <th scope="row">1</th>
-                <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
-                <td>Sopa</td>
-                <td>Hecha de salsas</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
-                <td>Sopa</td>
-                <td>Hecha de salsas</td>
-              </tr>
-              <tr>
-                <th scope="row">3</th>
-                <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
-                <td>Sopa</td>
-                <td>Hecha de salsas</td>
-              </tr>
-            </tbody>
-          </table>
+    <section class="container">
+        <div class="RecipeCard row">
+            <div>
+                <img class="" src="" alt="ImagenReceta">
+            </div>
+            <div>
+                <h2>Titulo de la receta</h2>
+                <h3>Descripcion</h3>
+                <h4>Tiempo de preparacion</h4>
+                <h4>Tiempo de coccion</h4>
+                <h4>Tiempo total</h4>
+                <h4>Porciones</h4>
+
+            </div>
+
+            <div>
+                <h3>Lista de ingredientes</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">ingrediente1</li>
+                    <li class="list-group-item">ingrediente1</li>
+                    <li class="list-group-item">ingrediente1</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Instrucciones</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">instruccion1</li>
+                    <li class="list-group-item">instruccion2</li>
+                    <li class="list-group-item">instruccion4</li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nivel de complejidad
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categoría de la receta
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ocasión para la receta
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+
+            <div>
+             AGREGAR SIDEBAR   
+            </div>
+
         </div>
+
     </section>
 
 
-    
     <footer class=" fixed-bottom footerCSS text-white">
         <div class="container">
             <div class="wrapperCSS">
-                <img class="mt-3" src="../recetario/img/indentificador.png" height="60" width="200" alt="">
+                <img class="mt-3" src="img/indentificador.png" height="60" width="200" alt="">
                 <p class="lead"> </p>
                 <a href="" class="position-absolute bottom-0 end-0 ">
                     <i class="bi bi-arrow-up-circle h1"></i>
                 </a>
                 <div>
                     <p class="text-lg-center">Siguenos en: </p>
-                    <img src="../recetario/img/fbIcon.png" height="50" width="50" alt="">
-                    <img src="../recetario/img/igIcon.png" height="50" width="50" alt="">
-                    <img src="../recetario/img/twIcon.png" height="50" width="50" alt="">
+                    <img src="img/fbIcon.png" height="50" width="50" alt="">
+                    <img src="img/igIcon.png" height="50" width="50" alt="">
+                    <img src="img/twIcon.png" height="50" width="50" alt="">
                 </div>
             </div>
         </div>

@@ -63,6 +63,11 @@ background-size: cover;
     height: 20em;
 }
 
+.tableUser{
+display: grid;
+place-items: center; 
+}
+
 .card-bg{
     background: #fcfcda;
 }
@@ -70,6 +75,14 @@ background-size: cover;
 .footerCSS{
 background: #b0f2c2;
 position: relative;
+}
+
+.RecipeCard{
+    width: 900px;
+    height: 700px;
+    margin: auto;
+    background-color: #ffb6af;
+    border-radius: 2rem;
 }
 
 .wrapperCSS{
