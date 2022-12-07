@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recetas guardadas</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
@@ -22,12 +22,12 @@
                 <a href="index.html" class="navbar-brand mb-0">
                     <img class="d-inline-block align-top" src="img/indentificador.png" width="200" height="60" />
                 </a>
-    
+
                 <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-    
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbarItems">
                         <li class="nav-item active"><a class="nav-link active" href="index.html">Inicio</a></li>
@@ -39,7 +39,7 @@
                                 <li><a href="topRecetas.html" class="dropdown-item">Sopas</a></li>
                                 <li><a href="topRecetas.html" class="dropdown-item">Ensaladas</a></li>
                                 <li><a href="topRecetas.html" class="dropdown-item">Miscelaneos</a></li>
-    
+
                             </ul>
                         </li>
                     </ul>
@@ -68,15 +68,84 @@
     </header>
     <!--- FIN del header-->
 
-    <section class="container ">
-        <section class="RecipeCard mr-5">
-            <img class="img-75 m-auto mt-3" src="" alt="Blog 1">
-            <h3 class="title-sm mt-3 text-justify ml-5">Hola</h3>
-            <p class="text-content opacity-60 mt-4 text-justify ml-5">7 min read September 12 <a href="#" class="inner-more"></a> </p>
-        </section>
+    <section class="container">
+        <div class="RecipeCard row">
+            <div>
+                <img class="" src="" alt="ImagenReceta">
+            </div>
+            <div>
+                <h2>Titulo de la receta</h2>
+                <h3>Descripcion</h3>
+                <h4>Tiempo de preparacion</h4>
+                <h4>Tiempo de coccion</h4>
+                <h4>Tiempo total</h4>
+                <h4>Porciones</h4>
+
+            </div>
+
+            <div>
+                <h3>Lista de ingredientes</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">ingrediente1</li>
+                    <li class="list-group-item">ingrediente1</li>
+                    <li class="list-group-item">ingrediente1</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Instrucciones</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">instruccion1</li>
+                    <li class="list-group-item">instruccion2</li>
+                    <li class="list-group-item">instruccion4</li>
+                </ul>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nivel de complejidad
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categoría de la receta
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ocasión para la receta
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </div>
+
+            <div>
+             AGREGAR SIDEBAR   
+            </div>
+
+        </div>
+
+    </section>
 
 
-    
     <footer class=" fixed-bottom footerCSS text-white">
         <div class="container">
             <div class="wrapperCSS">
