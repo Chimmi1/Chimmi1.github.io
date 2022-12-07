@@ -31,19 +31,19 @@
             <tbody>
               <tr >
                 <th scope="row">1</th>
-                <td><img src="/recetario/img/receta1.jpg" height="100" alt=""></td>
+                <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
                 <td>Sopa</td>
                 <td>Hecha de salsas</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
-                <td><img src="/recetario/img/receta1.jpg" height="100" alt=""></td>
+                <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
                 <td>Sopa</td>
                 <td>Hecha de salsas</td>
               </tr>
               <tr>
                 <th scope="row">3</th>
-                <td><img src="/recetario/img/receta1.jpg" height="100" alt=""></td>
+                <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
                 <td>Sopa</td>
                 <td>Hecha de salsas</td>
               </tr>

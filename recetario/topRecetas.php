@@ -27,7 +27,7 @@
     <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark">
         <div class="container">
             <a href="index.html" class="navbar-brand mb-0">
-                <img class="d-inline-block align-top" src="/img/indentificador.png" width="200" height="60" />
+                <img class="d-inline-block align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
             </a>
 
             <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
@@ -55,7 +55,7 @@
                     <button type="submit" class="btn btn-primary btnItem">Buscar</button>
                 </form>
                 <a href="Login.html">
-                    <img src="/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
+                    <img src="../recetario/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
                 </a>
                 <!--
                         <div class="dropdown">
@@ -104,7 +104,7 @@
                         <div class="col-md-4 col-sm-5 mb-4 topRecetasContent">
                             <a href="" class="aDecoration">
                                 <div class="card card-bg">
-                                    <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta3.jpg">
+                                    <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta3.jpg">
                                     <div class="card-body">
                                         <h4 class="card-title text-center">Comida sobre comida</h4>
                                         <p class="card-text text-center">orem laoreet diam, et lacinia ipsum eros nec
@@ -127,7 +127,7 @@
                     <div class="col-md-4 col-sm-5 mb-4 topRecetasContent">
                         <a href="" class="aDecoration">
                             <div class="card card-bg">
-                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta4.jpg">
+                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta4.jpg">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">Comida sobre comida</h4>
                                     <p class="card-text text-center">orem laoreet diam, et lacinia ipsum eros nec velit.
@@ -143,7 +143,7 @@
                     <div class="col-md-4 col-sm-5 mb-4 topRecetasContent">
                         <a href="" class="aDecoration">
                             <div class="card card-bg">
-                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta2.jpg">
+                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta2.jpg">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">Comida sobre comida</h4>
                                     <p class="card-text text-center">orem laoreet diam, et lacinia ipsum eros nec velit.
@@ -159,24 +159,7 @@
                     <div class="col-md-4 col-sm-5 mb-4 topRecetasContent">
                         <a href="" class="aDecoration">
                             <div class="card card-bg">
-                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta1.jpg">
-                                <div class="card-body">
-                                    <h4 class="card-title text-center">Comida sobre comida</h4>
-                                    <p class="card-text text-center">orem laoreet diam, et lacinia ipsum eros nec velit.
-                                        Sed
-                                        fringilla leo lacinia leo
-                                        convallis</p>
-
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
-
-                    <div class="col-md-4 col-sm-5 mb-4 topRecetasContent">
-                        <a href="" class="aDecoration">
-                            <div class="card card-bg">
-                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta5.jpg">
+                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta1.jpg">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">Comida sobre comida</h4>
                                     <p class="card-text text-center">orem laoreet diam, et lacinia ipsum eros nec velit.
@@ -193,7 +176,7 @@
                     <div class="col-md-4 col-sm-5 mb-4 topRecetasContent">
                         <a href="" class="aDecoration">
                             <div class="card card-bg">
-                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta6.jpg">
+                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta5.jpg">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">Comida sobre comida</h4>
                                     <p class="card-text text-center">orem laoreet diam, et lacinia ipsum eros nec velit.
@@ -210,7 +193,7 @@
                     <div class="col-md-4 col-sm-5 mb-4 topRecetasContent">
                         <a href="" class="aDecoration">
                             <div class="card card-bg">
-                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta4.jpg">
+                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta6.jpg">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">Comida sobre comida</h4>
                                     <p class="card-text text-center">orem laoreet diam, et lacinia ipsum eros nec velit.
@@ -227,7 +210,7 @@
                     <div class="col-md-4 col-sm-5 mb-4 topRecetasContent">
                         <a href="" class="aDecoration">
                             <div class="card card-bg">
-                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta3.jpg">
+                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta4.jpg">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">Comida sobre comida</h4>
                                     <p class="card-text text-center">orem laoreet diam, et lacinia ipsum eros nec velit.
@@ -244,7 +227,24 @@
                     <div class="col-md-4 col-sm-5 mb-4 topRecetasContent">
                         <a href="" class="aDecoration">
                             <div class="card card-bg">
-                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta2.jpg">
+                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta3.jpg">
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">Comida sobre comida</h4>
+                                    <p class="card-text text-center">orem laoreet diam, et lacinia ipsum eros nec velit.
+                                        Sed
+                                        fringilla leo lacinia leo
+                                        convallis</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    <div class="col-md-4 col-sm-5 mb-4 topRecetasContent">
+                        <a href="" class="aDecoration">
+                            <div class="card card-bg">
+                                <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta2.jpg">
                                 <div class="card-body">
                                     <h4 class="card-title text-center">Comida sobre comida</h4>
                                     <p class="card-text text-center">orem laoreet diam, et lacinia ipsum eros nec velit.
@@ -265,16 +265,16 @@
     <footer class=" footerCSS text-white fixed-bottom">
         <div class="container">
             <div class="wrapperCSS">
-                <img src="img/indentificador.png" height="60" width="200" alt="">
+                <img src="../recetario/img/indentificador.png" height="60" width="200" alt="">
                 <p class="lead"> </p>
                 <a href="" class="position-absolute ">
                     <i class="bi bi-arrow-up-circle h1"></i>
                 </a>
                 <div>
                     <p class="text-lg-center">Siguenos en: </p>
-                    <img src="img/fbIcon.png" height="50" width="50" alt="">
-                    <img src="img/igIcon.png" height="50" width="50" alt="">
-                    <img src="img/twIcon.png" height="50" width="50" alt="">
+                    <img src="../recetario/img/fbIcon.png" height="50" width="50" alt="">
+                    <img src="../recetario/img/igIcon.png" height="50" width="50" alt="">
+                    <img src="../recetario/img/twIcon.png" height="50" width="50" alt="">
                 </div>
             </div>
         </div>

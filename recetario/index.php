@@ -22,11 +22,14 @@ include("includes/bd.php");
 </head>
 
 <body>
+    <!--
+        PROFE SI NO LE CARGAN LAS IMAGENES ES PORQUE TUVIMOS QUE CAMBIAR EL PATH LUEGO DE METER LA CARPETA DE GITHUB
+        -->
     <header>
     <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark">
         <div class="container">
             <a href="index.php" class="navbar-brand mb-0">
-                <img class="d-inline-block align-top" src="/img/indentificador.png" width="200" height="60" />
+                <img class="d-inline-block align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
             </a>
 
             <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
@@ -54,7 +57,7 @@ include("includes/bd.php");
                     <button type="submit" class="btn btn-primary btnItem">Buscar</button>
                 </form>
                 <a href="Login.html">
-                    <img src="/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
+                    <img src="../recetario/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
                 </a>
                 <!--
                         <div class="dropdown">
@@ -82,7 +85,7 @@ include("includes/bd.php");
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <a href="" class="aDecoration">
-                    <div class="imagen-fondo-carousel" style="background-image: url(/img/receta1.jpg) ;"></div>
+                    <div class="imagen-fondo-carousel" style="background-image: url(../recetario/img/receta1.jpg) ;"></div>
                 </a>
                 <div class="carouselContainer text-light">
                     <h1>Explora nuestro repertorio culinario</h1>
@@ -107,7 +110,7 @@ include("includes/bd.php");
             </div>
             <div class="carousel-item">
                 <a href="" class="aDecoration">
-                    <div class="imagen-fondo-carousel" style="background-image: url(/img/receta2.jpg) ;"></div>
+                    <div class="imagen-fondo-carousel" style="background-image: url(../recetario/img/receta2.jpg) ;"></div>
                 </a>
                 <div class="carouselContainer text-light">
                     <h1>Mira las nuevas noticias sobre cocina</h1>
@@ -132,7 +135,7 @@ include("includes/bd.php");
             </div>
             <div class="carousel-item">
                 <a href="" class="aDecoration">
-                    <div class="imagen-fondo-carousel" style="background-image: url(/img/receta3.jpg) ;"></div>
+                    <div class="imagen-fondo-carousel" style="background-image: url(../recetario/img/receta3.jpg) ;"></div>
                 </a>
                 <div class="carouselContainer text-light">
                     <h1>Cuando sea grande quiero ser astronauta</h1>
@@ -198,7 +201,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta1.jpg">
+                                                    src="../recetario/img/receta1.jpg">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Mucha comida</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -216,7 +219,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta2.jpg">
+                                                    src="../recetario/img/receta2.jpg">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Mas comida</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -232,7 +235,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta3.jpg">
+                                                    src="../recetario/img/receta3.jpg">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Comida sobre comida</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -253,7 +256,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta4.png">
+                                                    src="../recetario/img/receta4.png">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Comase esta</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -270,7 +273,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta5.jpg">
+                                                    src="../recetario/img/receta5.jpg">
                                                 <div class="card-body">
                                                     <h4 class="card-title">El de la derecha se la come</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -286,7 +289,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta6.png">
+                                                    src="../recetario/img/receta6.png">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Me la comi</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -336,7 +339,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta1.jpg">
+                                                    src="../recetario/img/receta1.jpg">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Mucha comida</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -354,7 +357,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta2.jpg">
+                                                    src="../recetario/img/receta2.jpg">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Mas comida</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -370,7 +373,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta3.jpg">
+                                                    src="../recetario/img/receta3.jpg">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Comida sobre comida</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -392,7 +395,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta4.png">
+                                                    src="../recetario/img/receta4.png">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Comase esta</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -409,7 +412,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta5.jpg">
+                                                    src="../recetario/img/receta5.jpg">
                                                 <div class="card-body">
                                                     <h4 class="card-title">El de la derecha se la come</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -425,7 +428,7 @@ include("includes/bd.php");
                                         <a href="" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="/img/receta6.png">
+                                                    src="../recetario/img/receta6.png">
                                                 <div class="card-body">
                                                     <h4 class="card-title">Me la comi</h4>
                                                     <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
@@ -463,7 +466,7 @@ include("includes/bd.php");
                             <div class="col-md-4 mb-3">
                                 <a href="" class="aDecoration">
                                     <div class="card card-bg">
-                                        <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta1.jpg">
+                                        <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta1.jpg">
                                         <div class="card-body">
                                             <h4 class="card-title">Mucha comida</h4>
                                             <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit. Sed
@@ -479,7 +482,7 @@ include("includes/bd.php");
                             <div class="col-md-4 mb-3">
                                 <a href="" class="aDecoration">
                                     <div class="card card-bg">
-                                        <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta2.jpg">
+                                        <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta2.jpg">
                                         <div class="card-body">
                                             <h4 class="card-title">Mas comida</h4>
                                             <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit. Sed
@@ -493,7 +496,7 @@ include("includes/bd.php");
                             <div class="col-md-4 mb-3">
                                 <a href="" class="aDecoration">
                                     <div class="card card-bg">
-                                        <img class="img-fluid imagen-fondo-card" alt="100%x280" src="/img/receta3.jpg">
+                                        <img class="img-fluid imagen-fondo-card" alt="100%x280" src="../recetario/img/receta3.jpg">
                                         <div class="card-body">
                                             <h4 class="card-title">Comida sobre comida</h4>
                                             <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec velit. Sed
@@ -515,16 +518,16 @@ include("includes/bd.php");
     <footer class="p-5 footerCSS text-white">
         <div class="container">
             <div class="wrapperCSS">
-                <img src="/img/indentificador.png" height="60" width="200" alt="">
+                <img src="../recetario/img/indentificador.png" height="60" width="200" alt="">
                 <p class="lead">Copyright &copy 2022 Jose Daniel Rodriguez Castro </p>
                 <a href="" class="position-absolute bottom-0 end-0 p-5">
                     <i class="bi bi-arrow-up-circle h1"></i>
                 </a>
                 <div>
                     <p class="text-lg-center">Siguenos en: </p>
-                    <img src="img/fbIcon.png" height="50" width="50" alt="">
-                    <img src="img/igIcon.png" height="50" width="50" alt="">
-                    <img src="img/twIcon.png" height="50" width="50" alt="">
+                    <img src="../recetario/img/fbIcon.png" height="50" width="50" alt="">
+                    <img src="../recetario/img/igIcon.png" height="50" width="50" alt="">
+                    <img src="../recetario/img/twIcon.png" height="50" width="50" alt="">
                 </div>
             </div>
         </div>

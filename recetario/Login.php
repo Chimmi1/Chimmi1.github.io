@@ -21,7 +21,7 @@
     <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark">
       <div class="container">
         <a href="index.html" class="navbar-brand mb-0">
-          <img class="d-inline-block align-top" src="img/indentificador.png" width="200" height="60" />
+          <img class="d-inline-block align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
         </a>
 
         <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler btnItem"
@@ -56,10 +56,10 @@
 
   <section class="container text-center row p-5 align-items-center m-5">
     <div class="col d-none d-lg-block col-md-5 col-lg-5 col-xl-6">
-      <img class="img-fluid" src="img/comida.jpg" width="600" height="180" alt="ImgGrande">
+      <img class="img-fluid" src="../recetario/img/comida.jpg" width="600" height="180" alt="ImgGrande">
     </div>
     <form class="col ">
-      <img src="img/indentificador.png" width="200" height="60" alt="">
+      <img src="../recetario/img/indentificador.png" width="200" height="60" alt="">
       <h2>Iniciar Sesion</h2>
       <div class="form-group mb-3">
         <label for="CorreoElectronico">Correo Electronico</label>
@@ -84,7 +84,7 @@
   <footer class="fixed-bottom footerCSS text-white">
     <div class="container d-none d-md-block">
         <div class="wrapperCSS">
-            <img class="mt-3" src="img/indentificador.png" height="60" width="200" alt="">
+            <img class="mt-3" src="../recetario/img/indentificador.png" height="60" width="200" alt="">
             <p class="lead"></p>
             <a href="" class="position-absolute bottom-0 end-0 p-5">
                 <i class="bi bi-arrow-up-circle h1"></i>
@@ -92,9 +92,9 @@
             <div>
               <ul >
                 <p class="text-lg-center">Siguenos en: </p>
-                <img src="img/fbIcon.png" height="40" width="40" alt="">
-                <img src="img/igIcon.png" height="40" width="40" alt="">
-                <img src="img/twIcon.png" height="40" width="40" alt="">
+                <img src="../recetario/img/fbIcon.png" height="40" width="40" alt="">
+                <img src="../recetario/img/igIcon.png" height="40" width="40" alt="">
+                <img src="../recetario/img/twIcon.png" height="40" width="40" alt="">
               </ul>
             </div>
         </div>

@@ -20,7 +20,7 @@
         <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark">
             <div class="container">
                 <a href="index.html" class="navbar-brand mb-0">
-                    <img class="d-inline-block align-top" src="img/indentificador.png" width="200" height="60" />
+                    <img class="d-inline-block align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
                 </a>
     
                 <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
@@ -48,7 +48,7 @@
                         <button type="submit" class="btn btn-primary btnItem">Buscar</button>
                     </form>
                     <a href="Login.html">
-                        <img src="img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
+                        <img src="../recetario/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
                     </a>
                     <!--
                             <div class="dropdown">
@@ -82,19 +82,19 @@
             <tbody>
               <tr >
                 <th scope="row">1</th>
-                <td><img src="/recetario/img/receta1.jpg" height="100" alt=""></td>
+                <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
                 <td>Sopa</td>
                 <td>Hecha de salsas</td>
               </tr>
               <tr>
                 <th scope="row">2</th>
-                <td><img src="/recetario/img/receta1.jpg" height="100" alt=""></td>
+                <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
                 <td>Sopa</td>
                 <td>Hecha de salsas</td>
               </tr>
               <tr>
                 <th scope="row">3</th>
-                <td><img src="/recetario/img/receta1.jpg" height="100" alt=""></td>
+                <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
                 <td>Sopa</td>
                 <td>Hecha de salsas</td>
               </tr>
@@ -108,16 +108,16 @@
     <footer class=" fixed-bottom footerCSS text-white">
         <div class="container">
             <div class="wrapperCSS">
-                <img class="mt-3" src="img/indentificador.png" height="60" width="200" alt="">
+                <img class="mt-3" src="../recetario/img/indentificador.png" height="60" width="200" alt="">
                 <p class="lead"> </p>
                 <a href="" class="position-absolute bottom-0 end-0 ">
                     <i class="bi bi-arrow-up-circle h1"></i>
                 </a>
                 <div>
                     <p class="text-lg-center">Siguenos en: </p>
-                    <img src="img/fbIcon.png" height="50" width="50" alt="">
-                    <img src="img/igIcon.png" height="50" width="50" alt="">
-                    <img src="img/twIcon.png" height="50" width="50" alt="">
+                    <img src="../recetario/img/fbIcon.png" height="50" width="50" alt="">
+                    <img src="../recetario/img/igIcon.png" height="50" width="50" alt="">
+                    <img src="../recetario/img/twIcon.png" height="50" width="50" alt="">
                 </div>
             </div>
         </div>
