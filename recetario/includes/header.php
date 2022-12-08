@@ -1,5 +1,5 @@
 <?php
-//include("session.php");
+include("session.php");
 ?>
 
 
@@ -33,9 +33,12 @@
                     <input type="text" class="form-control me-2">
                     <button type="submit" class="btn btn-primary btnItem">Buscar</button>
                 </form>
-                <a href="login.php">
-                    <img src="../recetario/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
-                </a>
+                <div>
+                    <a href="login.php">
+                        <img src="../recetario/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
+                    </a>
+                    <h1>usuario: <?php echo $login_session?></h1>
+                </div>
                 <!--
                         <div class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
