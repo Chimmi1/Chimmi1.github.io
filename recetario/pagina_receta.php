@@ -22,10 +22,10 @@
 <body>
     <!--- Este es el header-->
     <header>
-        <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark navCenter ">
-            <div class="container ">
+        <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark  ">
+            <div class="container centernav">
                 <a href="index.php" class=" mb-0">
-                    <img class="d-inline-block align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
+                    <img class="align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
                 </a>
     
                 <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"

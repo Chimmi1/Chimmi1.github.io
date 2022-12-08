@@ -21,11 +21,13 @@
     margin-left: 3em;
 }
 
-.navCenter{
-    text-align: center;
+.fixmid{
+margin-top: 5%;    
 }
 
+.text-align{
 
+}
 
 .btnItem {
     background-color: #ffb6af;
@@ -99,7 +101,6 @@
     min-height: 100vh;
 }
 
-
 .width-form{
 width: 70%;
 height: 70%;;
@@ -120,6 +121,12 @@ background-color: #ededaf;
     border-radius: 2rem;
     font-size: large;
 }
+
+.centernav{
+margin-left: 20%;
+margin-right: 20%;
+}
+
 
 .Inner-border2 {
     border-radius: 2rem;
@@ -263,3 +270,4 @@ body{
 @media(max-width:768px) {}
 
 @media(max-width:450px) {}
+
