@@ -1,40 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
 
-*{
+* {
     font-family: 'Lato', sans-serif;
     text-decoration: none;
     box-sizing: border-box;
 }
-.navbarCSS{
-    background-color:  #b0f2c2;
+
+.navbarCSS {
+    background-color: #b0f2c2;
 }
 
-.navbarItems{
+.navbarItems {
     margin: 16px 0;
     color: white;
     font-size: 20px;
 }
 
-.navbarSpace{
+.navbarSpace {
     margin-left: 3em;
 }
 
-.btnItem{
+.navCenter{
+    text-align: center;
+}
+
+
+
+.btnItem {
     background-color: #ffb6af;
     border: white;
 }
 
-.carousel-item{
+.carousel-item {
     height: 35rem;
     background: #000;
     margin-top: 6rem;
     position: relative;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
 }
 
-.carouselContainer{
+.carouselContainer {
     position: absolute;
     bottom: 0;
     left: 6rem;
@@ -42,7 +49,7 @@
     padding-bottom: 50px;
 }
 
-.imagen-fondo-carousel{
+.imagen-fondo-carousel {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -53,31 +60,31 @@
     opacity: .7;
 }
 
-.imagen-fondo-card{
-height: 12.5em;
-background-position: center;
-background-size: cover;
+.imagen-fondo-card {
+    height: 12.5em;
+    background-position: center;
+    background-size: cover;
 }
 
-.card-carousel-item{
+.card-carousel-item {
     height: 20em;
 }
 
-.tableUser{
-display: grid;
-place-items: center; 
+.tableUser {
+    display: grid;
+    place-items: center;
 }
 
-.card-bg{
+.card-bg {
     background: #fcfcda;
 }
 
-.footerCSS{
-background: #b0f2c2;
-position: relative;
+.footerCSS {
+    background: #b0f2c2;
+    position: relative;
 }
 
-.RecipeCard{
+.RecipeCard {
     width: 95%;
     height: 95%;
     margin: auto;
@@ -90,29 +97,45 @@ position: relative;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-  }
-
-
-.Inner-border{
-border-radius: 2rem;
-font-size: large;
 }
 
-.Inner-border2{
-    border-radius: 2rem;
-    }
 
-.wrapperCSS{
+.width-form{
+width: 70%;
+height: 70%;;
+}
+
+.bg-color{
+background-color: #ededaf;
+}
+
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.Inner-border {
+    border-radius: 2rem;
+    font-size: large;
+}
+
+.Inner-border2 {
+    border-radius: 2rem;
+}
+
+.wrapperCSS {
     display: flex;
     justify-content: space-between;
 }
 
-.refItem{
+.refItem {
     color: #b0f2c2;
     text-decoration-color: #b0f2c2;
 }
 
-.topRecetasTitle{
+.topRecetasTitle {
     margin-top: 5em;
     text-align: center;
     background: #ededaf;
@@ -120,30 +143,30 @@ font-size: large;
     padding-bottom: 3em;
 }
 
-.topRecetasContent{
+.topRecetasContent {
     display: flex;
     align-items: center;
     margin: auto;
 }
 
-.topRecetash2{
+.topRecetash2 {
     margin-top: 1em;
     text-align: center;
     padding-top: 3em;
     padding-bottom: 3em;
 }
 
-.divisionCSS{
+.divisionCSS {
     background: #fcfcda;
     margin-bottom: 2em;
     margin-top: 2em;
 }
 
-.topRecetasSideCSS{
+.topRecetasSideCSS {
     background: #c7f6d4;
 }
 
-.aDecoration{
+.aDecoration {
     text-decoration: none;
     color: #000;
 }
@@ -237,9 +260,6 @@ body{
     line-height: 1;
 }
 */
-@media(max-width:768px){
+@media(max-width:768px) {}
 
-}
-@media(max-width:450px){
-
-}
+@media(max-width:450px) {}
