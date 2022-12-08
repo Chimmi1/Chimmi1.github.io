@@ -20,7 +20,7 @@ if(isset($_POST['registrar_usuario'])){
     ]);
 
     if(!$resultado){
-        die("Query failed");
+        die("Error de registro");
     }
         $_SESSION['mensaje']="Usuario guardado correctamente!";
         $_SESSION['mensaje_tipo']='success';
