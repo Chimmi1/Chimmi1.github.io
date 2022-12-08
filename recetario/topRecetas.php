@@ -55,7 +55,7 @@
                     <button type="submit" class="btn btn-primary btnItem">Buscar</button>
                 </form>
                 <a href="Login.html">
-                    <img src="../recetario/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
+                    <img src="" height="50" width="50" class="navbarSpace" alt="">
                 </a>
                 <!--
                         <div class="dropdown">
