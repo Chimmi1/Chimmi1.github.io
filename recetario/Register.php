@@ -1,3 +1,7 @@
+<?php
+include("includes/bd.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 

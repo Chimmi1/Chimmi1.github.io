@@ -1,3 +1,31 @@
+<?php
+include("includes/bd.php");
+include("includes/header.php");
+session_start();
+
+if (isset($_POST['iniciar_sesion'])) {
+
+  $usuario = $_POST['usuario'];
+  $contra = $_POST['contra'];
+
+  $user = $database->select("usuario_tb", "*", ["nombre_usuario" => $usuario]);
+  
+  if (count($user) > 0) {
+
+    if ($desencriptar($user[0]['contra'])===$contra) {
+      $_SESSION['login_user'] = $usuario;
+      header("location: principal.php");
+    } else {
+      $error = "contraseña invalida";
+    }
+  } else {
+    $error = "Usuario invalido";
+  }
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,39 +46,6 @@
 <body >
   <!--- Este es el header-->
   <header>
-    <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark">
-      <div class="container">
-        <a href="index.html" class="navbar-brand mb-0">
-          <img class="d-inline-block align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
-        </a>
-
-        <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler btnItem"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav navbarItems">
-            <li class="nav-item active"><a class="nav-link active" href="index.html">Inicio</a></li>
-            <li class="nav-item active"><a class="nav-link active" href="topRecetas.html">Recetas</a></li>
-            <li class="nav-item active"><a class="nav-link active" href="">Tips</a></li>
-            <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false" href="#">Categorias</a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a href="topRecetas.html" class="dropdown-item">Sopas</a></li>
-                <li><a href="topRecetas.html" class="dropdown-item">Ensaladas</a></li>
-                <li><a href="topRecetas.html" class="dropdown-item">Miscelaneos</a></li>
-
-              </ul>
-            </li>
-          </ul>
-        </div>
-        <form action="" class="d-flex">
-          <input type="text" class="form-control me-2">
-          <button type="submit" class="btn btn-primary btnItem">Buscar</button>
-        </form>
-      </div>
-    </nav>
   </header>
   <!--- FIN del header-->
 
@@ -58,24 +53,24 @@
     <div class="col d-none d-lg-block col-md-5 col-lg-5 col-xl-6">
       <img class="img-fluid" src="../recetario/img/comida.jpg" width="600" height="180" alt="ImgGrande">
     </div>
-    <form class="col ">
+    <form action="" class="col " method="post">
       <img src="../recetario/img/indentificador.png" width="200" height="60" alt="">
       <h2>Iniciar Sesion</h2>
       <div class="form-group mb-3">
         <label for="CorreoElectronico">Correo Electronico</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        <input type="text" name="usuario" class="form-control" aria-describedby="emailHelp"
           placeholder="Ingrese su correo electrónico">
       </div>
       <div class="form-group mb-3">
         <label for="exampleInputPassword1">Contraseña</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su contraseña">
+        <input type="password" name="contra" class="form-control" placeholder="Ingrese su contraseña">
       </div>
       <div class="mb-3">
         <h6>Olvidaste tu contraseña? <a href="#" class="refItem">Logueate aqui</a> </h6>
         <h6>No tienes una cuenta? <a href="Register.html" class="refItem">Registrate aqui</a> </h6>
       </div>
       <div class="d-grid">
-        <button type="Login" class="btn btn-primary btnItem">Iniciar sesion</button>
+        <input type="submit" value="Iniciar Sesion" class="btn btn-primary btnItem" name="iniciar_sesion">
       </div>
     </form>
 
