@@ -1,6 +1,7 @@
 <?php
 include("includes/bd.php");
 include_once("session.php");
+include("includes/header.php");
 ?>
 
 
@@ -25,11 +26,7 @@ include_once("session.php");
 </head>
 
 <body>
-    <!--- Este es el header-->
-    <header>
-        <!--- IMPORTAR HEADER-->
-    </header>
-    <!--- FIN del header-->
+
 
     <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark">
         <div class="container">
@@ -269,24 +266,9 @@ include_once("session.php");
     </section>
 
 
-    <footer class=" footerCSS text-white fixed-bottom">
-        <div class="container">
-            <div class="wrapperCSS">
-                <img src="../recetario/img/indentificador.png" height="60" width="200" alt="">
-                <p class="lead"> </p>
-                <a href="" class="position-absolute ">
-                    <i class="bi bi-arrow-up-circle h1"></i>
-                </a>
-                <div>
-                    <p class="text-lg-center">Siguenos en: </p>
-                    <img src="../recetario/img/fbIcon.png" height="50" width="50" alt="">
-                    <img src="../recetario/img/igIcon.png" height="50" width="50" alt="">
-                    <img src="../recetario/img/twIcon.png" height="50" width="50" alt="">
-                </div>
-            </div>
-        </div>
-
-    </footer>
+    <?php
+    include("includes/footer.php");
+    ?>
 
 </body>
 

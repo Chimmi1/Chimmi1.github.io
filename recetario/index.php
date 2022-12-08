@@ -467,24 +467,9 @@ include("includes/header.php");
         </div>
     </section>
 
-    <footer class="p-5 footerCSS text-white">
-        <div class="container">
-            <div class="wrapperCSS">
-                <img src="../recetario/img/indentificador.png" height="60" width="200" alt="">
-                <p class="lead">Copyright &copy 2022 Jose Daniel Rodriguez Castro </p>
-                <a href="" class="position-absolute bottom-0 end-0 p-5">
-                    <i class="bi bi-arrow-up-circle h1"></i>
-                </a>
-                <div>
-                    <p class="text-lg-center">Siguenos en: </p>
-                    <img src="../recetario/img/fbIcon.png" height="50" width="50" alt="">
-                    <img src="../recetario/img/igIcon.png" height="50" width="50" alt="">
-                    <img src="../recetario/img/twIcon.png" height="50" width="50" alt="">
-                </div>
-            </div>
-        </div>
-
-    </footer>
+    <?php
+    include("includes/footer.php");
+    ?>
 
 
 

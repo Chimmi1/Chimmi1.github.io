@@ -1,6 +1,8 @@
 <?php
 include("includes/bd.php");
 include("includes/header.php");
+include "mcript.php";
+
 session_start();
 
 if (isset($_POST['iniciar_sesion'])) {
@@ -14,7 +16,7 @@ if (isset($_POST['iniciar_sesion'])) {
 
     if ($desencriptar($user[0]['contra'])===$contra) {
       $_SESSION['login_user'] = $usuario;
-      header("location: principal.php");
+      header("location: index.php");
     } else {
       $error = "contraseña invalida";
     }
@@ -57,9 +59,9 @@ if (isset($_POST['iniciar_sesion'])) {
       <img src="../recetario/img/indentificador.png" width="200" height="60" alt="">
       <h2>Iniciar Sesion</h2>
       <div class="form-group mb-3">
-        <label for="CorreoElectronico">Correo Electronico</label>
+        <label >Nombre de Usuario</label>
         <input type="text" name="usuario" class="form-control" aria-describedby="emailHelp"
-          placeholder="Ingrese su correo electrónico">
+          placeholder="Ingrese su nombre de usuario">
       </div>
       <div class="form-group mb-3">
         <label for="exampleInputPassword1">Contraseña</label>
@@ -76,26 +78,9 @@ if (isset($_POST['iniciar_sesion'])) {
 
   </section>
 
-  <footer class="fixed-bottom footerCSS text-white">
-    <div class="container d-none d-md-block">
-        <div class="wrapperCSS">
-            <img class="mt-3" src="../recetario/img/indentificador.png" height="60" width="200" alt="">
-            <p class="lead"></p>
-            <a href="" class="position-absolute bottom-0 end-0 p-5">
-                <i class="bi bi-arrow-up-circle h1"></i>
-            </a>
-            <div>
-              <ul >
-                <p class="text-lg-center">Siguenos en: </p>
-                <img src="../recetario/img/fbIcon.png" height="40" width="40" alt="">
-                <img src="../recetario/img/igIcon.png" height="40" width="40" alt="">
-                <img src="../recetario/img/twIcon.png" height="40" width="40" alt="">
-              </ul>
-            </div>
-        </div>
-    </div>
-
-</footer>
+  <?php
+    include("includes/footer.php");
+    ?>
 
 
 </body>
