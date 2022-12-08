@@ -78,12 +78,19 @@ position: relative;
 }
 
 .RecipeCard{
-    width: 900px;
-    height: 700px;
+    width: 95%;
+    height: 95%;
     margin: auto;
     background-color: #ffb6af;
     border-radius: 2rem;
 }
+
+.cont-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
 
 .wrapperCSS{
     display: flex;
