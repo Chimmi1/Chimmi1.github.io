@@ -92,6 +92,16 @@ position: relative;
     min-height: 100vh;
   }
 
+
+.Inner-border{
+border-radius: 2rem;
+font-size: large;
+}
+
+.Inner-border2{
+    border-radius: 2rem;
+    }
+
 .wrapperCSS{
     display: flex;
     justify-content: space-between;
