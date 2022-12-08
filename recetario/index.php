@@ -1,5 +1,7 @@
 <?php
 include("includes/bd.php");
+include_once("session.php");
+include("includes/header.php");
 ?>
 
 <!DOCTYPE html>
@@ -25,56 +27,6 @@ include("includes/bd.php");
     <!--
         PROFE SI NO LE CARGAN LAS IMAGENES ES PORQUE TUVIMOS QUE CAMBIAR EL PATH LUEGO DE METER LA CARPETA DE GITHUB
         -->
-    <header>
-    <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark">
-        <div class="container">
-            <a href="index.php" class="navbar-brand mb-0">
-                <img class="d-inline-block align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
-            </a>
-
-            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav navbarItems">
-                    <li class="nav-item active"><a class="nav-link active" href="index.php">Inicio</a></li>
-                    <li class="nav-item active"><a class="nav-link active" href="topRecetas.php">Recetas</a></li>
-                    <li class="nav-item active"><a class="nav-link active" href="">Tips</a></li>
-                    <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" id="navbarDropdown"
-                            role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Categorias</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a href="topRecetas.html" class="dropdown-item">Sopas</a></li>
-                            <li><a href="topRecetas.html" class="dropdown-item">Ensaladas</a></li>
-                            <li><a href="topRecetas.html" class="dropdown-item">Miscelaneos</a></li>
-
-                        </ul>
-                    </li>
-                </ul>
-                <form action="" class="d-flex navbarSpace">
-                    <input type="text" class="form-control me-2">
-                    <button type="submit" class="btn btn-primary btnItem">Buscar</button>
-                </form>
-                <a href="Login.html">
-                    <img src="../recetario/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
-                </a>
-                <!--
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Dropdown button
-                            </button>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="#">Action</a>
-                              <a class="dropdown-item" href="#">Another action</a>
-                              <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                          </div>
-                          -->
-            </div>
-        </div>
-    </nav>
-</header>
 
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <ol class="carousel-indicators">

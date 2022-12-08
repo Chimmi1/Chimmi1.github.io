@@ -1,3 +1,8 @@
+<?php
+include("includes/bd.php");
+include_once("session.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
