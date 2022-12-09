@@ -25,7 +25,6 @@ include("session.php");
                             <li><a href="topRecetas.html" class="dropdown-item">Sopas</a></li>
                             <li><a href="topRecetas.html" class="dropdown-item">Ensaladas</a></li>
                             <li><a href="topRecetas.html" class="dropdown-item">Miscelaneos</a></li>
-
                         </ul>
                     </li>
                 </ul>
@@ -50,7 +49,6 @@ include("session.php");
                                 }
                                 ?>
                             </a></li>
-                            <li><a href=""></a></li>
                         </ul>
                         </li>
                     </ul>

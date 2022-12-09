@@ -1,6 +1,32 @@
+<?php
+include("includes/bd.php");
+include("includes/header.php");
 
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
 
+    $result = $database->select("receta_tb", "*", ["id" => $id]);
 
+    if (count($result) == 1) {
+        $titulo = $result[0]['titulo'];
+        $img =  $result[0]['img'];
+        $tiempo_preparacion =  $result[0]['tiempo_preparacion'];
+        $tiempo_coccion =  $result[0]['tiempo_coccion'];
+        $tiempo_total =  $result[0]['tiempo_total'];
+        $porciones =  $result[0]['porciones'];
+        $complejidad =  $result[0]['complejidad'];
+        $categoria =  $result[0]['categoria'];
+        $ocasion =  $result[0]['ocasion'];
+        $paso1 =  $result[0]['paso1'];
+        $paso2 =  $result[0]['paso2'];
+        $paso3 =  $result[0]['paso3'];
+        $descripcion =  $result[0]['descripcion'];
+        $ingrediente1 =  $result[0]['ingrediente1'];
+        $ingrediente2 =  $result[0]['ingrediente2'];
+        $ingrediente3 =  $result[0]['ingrediente3'];
+    }
+}
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,64 +46,11 @@
 </head>
 
 <body>
-    <!--- Este es el header-->
-    <header>
-        <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark navCenter ">
-            <div class="container ">
-                <a href="index.php" class=" mb-0">
-                    <img class="d-inline-block align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
-                </a>
-    
-                <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-    
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav navbarItems">
-                        <li class="nav-item active"><a class="nav-link active" href="index.php">Inicio</a></li>
-                        <li class="nav-item active"><a class="nav-link active" href="topRecetas.php">Recetas</a></li>
-                        <li class="nav-item active"><a class="nav-link active" href="">Tips</a></li>
-                        <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" id="navbarDropdown"
-                                role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Categorias</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a href="topRecetas.html" class="dropdown-item">Sopas</a></li>
-                                <li><a href="topRecetas.html" class="dropdown-item">Ensaladas</a></li>
-                                <li><a href="topRecetas.html" class="dropdown-item">Miscelaneos</a></li>
-    
-                            </ul>
-                        </li>
-                    </ul>
-                    <form action="" class="d-flex navbarSpace">
-                        <input type="text" class="form-control me-2">
-                        <button type="submit" class="btn btn-primary btnItem">Buscar</button>
-                    </form>
-                    <a href="Login.html">
-                        <img src="../recetario/img/userIcon.png" height="50" width="50" class="navbarSpace" alt="">
-                    </a>
-                    <!--
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Dropdown button
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                  <a class="dropdown-item" href="#">Action</a>
-                                  <a class="dropdown-item" href="#">Another action</a>
-                                  <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                              </div>
-                              -->
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!--- FIN del header-->
-
     <section class="cont-center text-center mt-5 pt-5">
         <div class="RecipeCard">
             <div class="row m-5">
                 <div class="col-2">
-                    <img class="" src="" alt="ImagenReceta">
+                    <img class="" height="300" width="300" src=<?php echo "../recetario/img/".$img?> alt="">
                     
                 </div>
 
@@ -88,9 +61,9 @@
 
                 </div>
                 <div class="col-7">
-                    <h4 class="bg-light Inner-border">Titulo</h4>
-                    <p class="bg-light Inner-border">Descripcion</p>
-                    <h5 class="bg-light Inner-border">Porciones</h5>
+                    <h4 class="bg-light Inner-border"><?php echo $titulo ?></h4>
+                    <p class="bg-light Inner-border"><?php echo $descripcion ?></p>
+                    <h5 class="bg-light Inner-border"><?php echo $porciones ?></h5>
                 </div>
             </div>
 
@@ -109,15 +82,15 @@
             <div class="row m-3">
                 <div class="col">
 
-                    <h5 class="bg-light Inner-border2">Tiempo de preparacion</h5>
+                    <h5 class="bg-light Inner-border2"><?php echo $tiempo_preparacion ?></h5>
                 </div>
                 <div class="col">
                     
-                    <h5 class="bg-light Inner-border2">Tiempo de coccion</h5>
+                    <h5 class="bg-light Inner-border2"><?php echo $tiempo_coccion ?></h5>
                 </div>
                 <div class="col">
             
-                    <h5 class="bg-light Inner-border2">Tiempo total</h5>
+                    <h5 class="bg-light Inner-border2"><?php echo $tiempo_total ?></h5>
                 </div>
             </div>
 
@@ -125,18 +98,18 @@
                 <div class="col">
                     <h4>Lista de ingredientes</h4>
                     <ul class="list-group Inner-border2">
-                        <li class="list-group-item ">ingrediente1</li>
-                        <li class="list-group-item">ingrediente1</li>
-                        <li class="list-group-item">ingrediente1</li>
+                        <li class="list-group-item "><?php echo $ingrediente1 ?></li>
+                        <li class="list-group-item"><?php echo $ingrediente2 ?></li>
+                        <li class="list-group-item"><?php echo $ingrediente3 ?></li>
                     </ul>
                 </div>
 
                 <div class="col">
                     <h4>Instrucciones</h4>
                     <ul class="list-group  Inner-border2">
-                        <li class="list-group-item">instruccion1</li>
-                        <li class="list-group-item">instruccion2</li>
-                        <li class="list-group-item">instruccion4</li>
+                        <li class="list-group-item"><?php echo $paso1 ?></li>
+                        <li class="list-group-item"><?php echo $paso2 ?></li>
+                        <li class="list-group-item"><?php echo $paso3 ?></li>
                     </ul>
                 </div>
 
@@ -145,17 +118,17 @@
             <div class="row m-3 ">
             <div class="form-group col">
                 <h5>Nivel de complejidad</h5>
-                <h5 class="bg-light Inner-border2">Nivel</h5>
+                <h5 class="bg-light Inner-border2"><?php echo $complejidad ?></h5>
             </div>
 
             <div class="form-group col">
                 <h5>Categoria de la receta</h5>
-                <h5 class="bg-light Inner-border2">Categoria</h5>
+                <h5 class="bg-light Inner-border2"><?php echo $categoria ?></h5>
             </div>
 
             <div class="form-group col">
                 <h5>Ocasion para la receta</h5>
-                <h5 class="bg-light Inner-border2">Ocasion</h5>
+                <h5 class="bg-light Inner-border2"><?php echo $ocasion ?></h5>
             </div>
            
         </div>

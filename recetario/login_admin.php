@@ -1,3 +1,34 @@
+<?php
+include("includes/bd.php");
+include "mcript.php";
+session_start();
+
+if (isset($_POST['iniciar_admin'])) {
+
+  $usuario = $_POST['usuarioAdmin'];
+  $contra = $_POST['contraAdmin'];
+
+  $user = $database->select("usuario_tb", "*", ["nombre_usuario" => $usuario]);
+  
+  if (count($user) > 0) {
+
+    if ($desencriptar($user[0]['contra'])===$contra && $user[0][]) {
+      $_SESSION['login_user'] = $usuario;
+      header("location: menu_admin.php");
+    } else {
+      $error = "contraseña invalida";
+      echo "no funciona1";
+    }
+  } else {
+    echo "no funciona";
+    $error = "Usuario invalido";
+  }
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,21 +52,21 @@
     <!--- FIN del header-->
     
     <section class="container text-center jus row p-5 align-items-center m-5">
-        <form >
+        <form action="menu-admin.php" method="post">
           <img src="../recetario/img/indentificador.png" width="200" height="60" alt="">
           <h2>Iniciar sesion como admin</h2>
           <div class="form-group mb-3">
-            <label for="CorreoElectronico">Correo Electronico</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+            <label for="CorreoElectronico">Nombre de usuario</label>
+            <input type="text" class="form-control"  name="usuarioAdmin" aria-describedby="emailHelp"
               placeholder="Ingrese su correo electrónico">
           </div>
           <div class="form-group mb-3">
             <label for="exampleInputPassword1">Contraseña</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su contraseña">
+            <input type="password" class="form-control"  name="contraAdmin" placeholder="Ingrese su contraseña">
           </div>
           
           <div class="d-grid">
-            <button type="Login" class="btn btn-primary ">Iniciar sesion</button>
+            <button type="submit" class="btn btn-primary " name="iniciar_admin" >Iniciar sesion</button>
           </div>
         </form>
     

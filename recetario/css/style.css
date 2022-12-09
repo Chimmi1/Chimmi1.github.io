@@ -66,6 +66,12 @@
     background-size: cover;
 }
 
+.imagen-receta {
+    height: 15em;
+    background-position: center;
+    background-size: cover;
+}
+
 .card-carousel-item {
     height: 20em;
 }
@@ -171,29 +177,11 @@ background-color: #ededaf;
     color: #000;
 }
 
-.dropdownCSS {
-    position: relative;
-    display: inline-block;
-  }
-
-.dropbtnCSS {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-
-  .dropdown-contentCSS {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+.menuAdminLayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*
 html{

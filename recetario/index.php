@@ -2,6 +2,8 @@
 include("includes/bd.php");
 include_once("session.php");
 include("includes/header.php");
+
+$resultDisplay=$database->select("receta_tb","*");
 ?>
 
 <!DOCTYPE html>
@@ -148,111 +150,48 @@ include("includes/header.php");
                             <div class="carousel-item active card-carousel-item bg-light">
 
                                 <div class="row">
-
+                                    <?php
+                                        $resultCard = $database->select("receta_tb", "*");
+                                        for ($i = 0; $i < 3; $i++) {
+                                    ?>
                                     <div class="col-md-4 mb-3">
-                                        <a href="" class="aDecoration">
+                                        <a href="pagina_receta.php?id=<?php echo $resultDisplay[$i]['id']?>" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="../recetario/img/receta1.jpg">
+                                                    src=<?php echo "../recetario/img/".$resultDisplay[$i]['img']?>>
                                                 <div class="card-body">
-                                                    <h4 class="card-title">Mucha comida</h4>
-                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
-                                                        velit.
-                                                        Sed fringilla leo lacinia leo
-                                                        convallis</p>
+                                                    <h4 class="card-title"><?php echo $resultDisplay[$i]['titulo']?></h4>
+                                                    <p class="card-text"><?php echo $resultDisplay[$i]['descripcion']?></p>
 
                                                 </div>
 
                                             </div>
                                         </a>
                                     </div>
-
-                                    <div class="col-md-4 mb-3">
-                                        <a href="" class="aDecoration">
-                                            <div class="card card-bg">
-                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="../recetario/img/receta2.jpg">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Mas comida</h4>
-                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
-                                                        velit.
-                                                        Sed fringilla leo lacinia leo
-                                                        convallis</p>
-
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <a href="" class="aDecoration">
-                                            <div class="card card-bg">
-                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="../recetario/img/receta3.jpg">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Comida sobre comida</h4>
-                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
-                                                        velit.
-                                                        Sed fringilla leo lacinia leo
-                                                        convallis</p>
-
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                    <?php } ?>
                                 </div>
                             </div>
                             <div class="carousel-item card-carousel-item bg-light">
-                                <div class="row">
-
+                            <div class="row">
+                                    <?php
+                                        $resultCard = $database->select("receta_tb", "*");
+                                        for ($i = 3; $i < 6; $i++) {
+                                    ?>
                                     <div class="col-md-4 mb-3">
-                                        <a href="" class="aDecoration">
+                                        <a href="pagina_receta.php?id=<?php echo $resultDisplay[$i]['id']?>" class="aDecoration">
                                             <div class="card card-bg">
                                                 <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="../recetario/img/receta4.png">
+                                                    src=<?php echo "../recetario/img/".$resultDisplay[$i]['img']?> >
                                                 <div class="card-body">
-                                                    <h4 class="card-title">Comase esta</h4>
-                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
-                                                        velit.
-                                                        Sed fringilla leo lacinia leo
-                                                        convallis</p>
+                                                    <h4 class="card-title"><?php echo $resultDisplay[$i]['titulo']?></h4>
+                                                    <p class="card-text "><?php echo $resultDisplay[$i]['descripcion']?></p>
 
                                                 </div>
 
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="col-md-4 mb-3">
-                                        <a href="" class="aDecoration">
-                                            <div class="card card-bg">
-                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="../recetario/img/receta5.jpg">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">El de la derecha se la come</h4>
-                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
-                                                        velit.
-                                                        Sed fringilla leo lacinia leo
-                                                        convallis</p>
-
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <a href="" class="aDecoration">
-                                            <div class="card card-bg">
-                                                <img class="img-fluid imagen-fondo-card" alt="100%x280"
-                                                    src="../recetario/img/receta6.png">
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Me la comi</h4>
-                                                    <p class="card-text">orem laoreet diam, et lacinia ipsum eros nec
-                                                        velit.
-                                                        Sed fringilla leo lacinia leo
-                                                        convallis</p>
-
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
+                                    <?php } ?>
                                 </div>
                             </div>
                         </div>
