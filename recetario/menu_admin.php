@@ -23,7 +23,7 @@ include("includes/bd.php");
 
     <div class="cont-center2 row text-center bg-colorbtn ">
         <div class="col">
-            <a href="">
+            <a href="usuarios_registrados.php">
             <button type="submit" class="btn btn-primary btnItem">Usuarios</button></a>
 
         </div>

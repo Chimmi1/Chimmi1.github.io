@@ -12,7 +12,7 @@ if (isset($_POST['iniciar_admin'])) {
   
   if (count($user) > 0) {
 
-    if ($desencriptar($user[0]['contra'])===$contra && $user[0][]) {
+    if ($desencriptar($user[0]['contra'])===$contra && $user[0]['perfil']==="administrador") {
       $_SESSION['login_user'] = $usuario;
       header("location: menu_admin.php");
     } else {
@@ -52,7 +52,7 @@ if (isset($_POST['iniciar_admin'])) {
     <!--- FIN del header-->
     
     <section class="container text-center jus row p-5 align-items-center m-5">
-        <form action="menu-admin.php" method="post">
+        <form action="menu_admin.php" method="post">
           <img src="../recetario/img/indentificador.png" width="200" height="60" alt="">
           <h2>Iniciar sesion como admin</h2>
           <div class="form-group mb-3">
