@@ -83,10 +83,10 @@ if (isset($_POST['actualizar'])) {
                                 <select name="perfil" value="<?php echo $perfil ?>" id="perfil" class="form-control" aria-label="Seleccione un perfil">
                                     <?php if ($perfil == "administrador") { ?>
                                         <option selected value="administrador">Administrador</option>
-                                        <option value="usuario">usuario</option>
+                                        <option value="usuario">Usuario</option>
                                     <?php } else if ($perfil == "usuario") { ?>
-                                        <option selected value="administrador">Administrador</option>
-                                        <option value="usuario">administrador</option>
+                                        <option selected value="usuario">Usuario</option>
+                                        <option value="administrador">Administrador</option>
                                     <?php   } ?>
                                 </select>
                             </div>

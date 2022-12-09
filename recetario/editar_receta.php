@@ -10,7 +10,7 @@ include("includes/header.php");
 if (isset($_GET['id']) && isset($_SESSION['login_user'])) {
     $id = $_GET['id'];
 
-    $result = $database->select("usuario_tb", "*", ["id" => $id]);
+    $result = $database->select("receta_tb", "*", ["id" => $id]);
 
     if (count($result) == 1) {
         $id= $result[0]['id'];

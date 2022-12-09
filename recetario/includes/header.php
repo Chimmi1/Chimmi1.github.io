@@ -17,14 +17,14 @@ include("session.php");
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav navbarItems">
                     <li class="nav-item active"><a class="nav-link active" href="index.php">Inicio</a></li>
-                    <li class="nav-item active"><a class="nav-link active" href="topRecetas.php">Recetas</a></li>
-                    <li class="nav-item active"><a class="nav-link active" href="">Tips</a></li>
+                    <li class="nav-item active"><a class="nav-link active" href="top_recetas.php">Recetas</a></li>
+                    <li class="nav-item active"><a class="nav-link active" href="top_recetas.php">Tips</a></li>
                     <li class="nav-item dropdown"><a class="nav-link active dropdown-toggle" id="navbarDropdown"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Categorias</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a href="topRecetas.html" class="dropdown-item">Sopas</a></li>
-                            <li><a href="topRecetas.html" class="dropdown-item">Ensaladas</a></li>
-                            <li><a href="topRecetas.html" class="dropdown-item">Miscelaneos</a></li>
+                            <li><a href="top_recetas.html" class="dropdown-item">Sopas</a></li>
+                            <li><a href="top_recetas.html" class="dropdown-item">Ensaladas</a></li>
+                            <li><a href="top_recetas.html" class="dropdown-item">Miscelaneos</a></li>
                         </ul>
                     </li>
                 </ul>

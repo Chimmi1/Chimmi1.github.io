@@ -1,5 +1,7 @@
 <?php
 include("includes/bd.php");
+include_once("session.php");
+include("includes/header.php");
 ?>
 
 <!DOCTYPE html>
