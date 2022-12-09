@@ -2,7 +2,7 @@
         <div class="container">
             <div class="wrapperCSS">
                 <img src="../recetario/img/indentificador.png" height="60" width="200" alt="">
-                <p class="lead">Copyright &copy 2022 Jose Daniel Rodriguez Castro </p>
+                <p class="lead"> </p>
                 <a href="" class="position-absolute bottom-0 end-0 p-5">
                     <i class="bi bi-arrow-up-circle h1"></i>
                 </a>
