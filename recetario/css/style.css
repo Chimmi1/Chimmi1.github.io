@@ -31,8 +31,16 @@ margin-top: 5%;
 }
 
 .btnItem {
+    width: 60%;
     background-color: #ffb6af;
     border: white;
+}
+
+.bg-colorbtn{
+width: 80%;
+ background-color: #fcfcda;   
+ opacity: 80%;
+ margin: auto;
 }
 
 .carousel-item {
@@ -111,11 +119,22 @@ margin-top: 5%;
     border-radius: 2rem;
 }
 
+
 .cont-center {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+}
+
+.cont-center2 {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 500px;
+    border-radius: 4rem
 }
 
 .width-form{
