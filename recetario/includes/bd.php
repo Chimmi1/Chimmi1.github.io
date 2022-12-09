@@ -6,6 +6,6 @@
         'host' => 'localhost',
         'database' => 'recetario_bd',  
         'username' => 'root',
-        'password' => '12345678'
+        'password' => 'root'
       ]);
 ?>

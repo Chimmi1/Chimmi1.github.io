@@ -28,4 +28,28 @@ if(isset($_POST['registrar_usuario'])){
 
 }
 
+if(isset($_POST['registrar_usuario_admin'])){
+
+    $result=$database->select("usuario_tb","*");
+
+    $id = count($result)+1;
+    $usuario= $_POST['registroUsuario'];
+    $contra= $encriptar($_POST['registroContrasena']);
+    $perfil = "registrarPerfil";
+
+    $resultado=$database->insert("usuario_tb",[
+        "id"=>$id,
+        "nombre_usuario"=>$usuario,
+        "contra"=>$contra,
+        "perfil"=>$perfil
+    ]);
+
+    if(!$resultado){
+        die("Error de registro");
+    }
+        $_SESSION['mensaje']="Usuario guardado correctamente!";
+        $_SESSION['mensaje_tipo']='success';
+        header("location: usuarios_registrados.php");
+
+}
 ?>
