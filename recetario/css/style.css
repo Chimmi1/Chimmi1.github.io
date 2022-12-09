@@ -127,6 +127,10 @@ width: 80%;
     min-height: 100vh;
 }
 
+.textbtn{
+font-size: small;
+}
+
 .cont-center2 {
     margin-top: 10%;
     display: flex;
