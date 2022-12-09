@@ -113,7 +113,7 @@ if (isset($_POST['iniciar_sesion'])) {
         <input type="password" name="contra" class="form-control" placeholder="Ingrese su contraseña">
       </div>
       <div class="mb-3">
-        <h6>Olvidaste tu contraseña? <a href="#" class="refItem">Logueate aqui</a> </h6>
+        <h6>Olvidaste tu contraseña? <a href="recuperar_contrasena.php" class="refItem">Logueate aqui</a> </h6>
         <h6>No tienes una cuenta? <a href="Register.php" class="refItem">Registrate aqui</a> </h6>
         <h6>Inicia sesion como administrador <a href="login_admin.php" class="refItem">administrador aqui</a> </h6>
       </div>

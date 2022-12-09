@@ -12,7 +12,7 @@ if (isset($_POST['iniciar_admin'])) {
   
   if (count($user) > 0) {
 
-    if ($desencriptar($user[0]['contra'])===$contra && $user[0]['perfil']==="administrador") {
+    if ($desencriptar($user[0]['contra'])===$contra && $user[0]['perfil']=="administrador") {
       $_SESSION['login_user'] = $usuario;
       header("location: menu_admin.php");
     } else {

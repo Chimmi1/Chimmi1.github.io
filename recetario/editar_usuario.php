@@ -28,9 +28,9 @@ if (isset($_POST['actualizar'])) {
     $perfil = $_POST['perfil'];
 
     $result = $database->update("usuario_tb", [
-        "usuario" => $usuario,
-        "perfil" => $perfil,
-        "contra" => $contra
+        "nombre_usuario" => $usuario,
+        "contra" => $contra,
+        "perfil" => $perfil
     ], [
         "id" => $id
     ]);
