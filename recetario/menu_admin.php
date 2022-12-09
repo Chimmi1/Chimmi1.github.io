@@ -21,12 +21,16 @@ include("includes/bd.php");
 </head>
 <body>
 
-    <div class="container ">
-        <div class="menuAdminLayout"><a href=""><button type="submit" class="btn btn-primary btnItem">Buscar</button></a>
-        </div>
-        <div class="menuAdminLayout">
+    <div class="cont-center2 row text-center bg-colorbtn ">
+        <div class="col">
             <a href="">
-        <button type="submit" class="btn btn-primary btnItem ">Buscar</button></a>
+            <button type="submit" class="btn btn-primary btnItem">Usuarios</button></a>
+
+        </div>
+
+        <div class="col ">
+            <a href="">
+        <button type="submit" class="btn btn-primary btnItem ">Recetas</button></a>
         </div>
     </div>
 

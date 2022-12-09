@@ -133,10 +133,61 @@ if (isset($_GET['id'])) {
            
         </div>
 
-            <div class="form-group m-5">
-                AGREGAR SLIDERS
-            </div>
-
+        <div class="form-group col">
+                    <h5>Ocasion para la receta</h5>
+                    <h5 class="bg-light Inner-border2">Ocasion</h5>
+                </div>
+                <div>
+                    <script language="javascript">
+                        var i = 0;
+                        function contador() {
+                            i = i + 1;
+                            var btn = document.getElementById("boton");
+                            btn.value = "Me gusta (" + i + ")";
+                        }
+                    </script>
+                    <a href="" onclick="javascript: contador()"> <img class="btnLike m-3" src="/recetario/img/like.png"
+                            alt=""></a>
+                </div>
+                
+            <div class="container overflow-hidden">
+                <div class="row gy-5">
+                  <div class="col-4">
+                    <div class="p-3 ">
+                        <div class="col card-bgcard p-3 ">
+                            <img class="img-thumbnail imagen-fondo-card " alt="" src="../recetario/img/receta1.jpg">
+                                <h4>Mucha comida</h4>
+                                <p>orem laoreet diam, et lacinia ipsum eros nec velit. Sed
+                                    fringilla leo lacinia leo
+                                    convallis</p>  
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="p-3 ">
+                        <div class="col card-bgcard p-3 ">
+                            <img class="img-thumbnail imagen-fondo-card " alt="" src="../recetario/img/receta1.jpg">
+                                <h4>Mucha comida</h4>
+                                <p>orem laoreet diam, et lacinia ipsum eros nec velit. Sed
+                                    fringilla leo lacinia leo
+                                    convallis</p>  
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="p-3 ">
+                        <div class="col card-bgcard p-3 ">
+                            <img class="img-thumbnail imagen-fondo-card " alt="" src="../recetario/img/receta1.jpg">
+                                <h4>Mucha comida</h4>
+                                <p>orem laoreet diam, et lacinia ipsum eros nec velit. Sed
+                                    fringilla leo lacinia leo
+                                    convallis</p>  
+                        </div>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
         </div>
 
     </section>

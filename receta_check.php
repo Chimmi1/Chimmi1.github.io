@@ -50,8 +50,8 @@
             </tbody>
           </table>
           <div >
-            <button class="btn btn-light">Aceptar</button>
-            <button class="btn btn-light">Rechazar</button>
+            <button class="btn btn-primary">Aceptar</button>
+            <button class="btn btn-primary">Rechazar</button>
         </div>
     </section>
 
