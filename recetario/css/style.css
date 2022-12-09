@@ -25,8 +25,9 @@
 margin-top: 5%;    
 }
 
-.text-align{
-
+.btnLike{
+    border: none;
+    width: 80px;
 }
 
 .btnItem {
@@ -41,6 +42,16 @@ margin-top: 5%;
     position: relative;
     background-position: center;
     background-size: cover;
+}
+
+.carousel-item2 {
+    height: 35rem;
+    background: #000;
+    margin-top: 6rem;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 .carouselContainer {
@@ -171,6 +182,12 @@ margin-right: 20%;
 
 .topRecetasSideCSS {
     background: #c7f6d4;
+}
+
+.card-bgcard{
+background-color: #fcfcda;
+border-radius: 2rem;
+
 }
 
 .aDecoration {

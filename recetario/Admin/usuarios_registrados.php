@@ -38,7 +38,7 @@ include("includes/header.php");
               <tr >
                 <th >1</th>
                 <td>Admin</td>
-                <td>Danielito</td>
+                <td>Daniel</td>
               
               </tr>
               <tr>

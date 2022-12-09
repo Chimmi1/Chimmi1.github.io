@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,12 +23,12 @@
                 <a href="index.php" class=" mb-0">
                     <img class="align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
                 </a>
-    
+
                 <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-    
+
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav navbarItems">
                         <li class="nav-item active"><a class="nav-link active" href="index.php">Inicio</a></li>
@@ -44,7 +40,7 @@
                                 <li><a href="topRecetas.html" class="dropdown-item">Sopas</a></li>
                                 <li><a href="topRecetas.html" class="dropdown-item">Ensaladas</a></li>
                                 <li><a href="topRecetas.html" class="dropdown-item">Miscelaneos</a></li>
-    
+
                             </ul>
                         </li>
                     </ul>
@@ -78,10 +74,10 @@
             <div class="row m-5">
                 <div class="col-2">
                     <img class="" src="" alt="ImagenReceta">
-                    
+
                 </div>
 
-                <div class="col-3 " >
+                <div class="col-3 ">
                     <h4 class="mb-1">Titulo de la receta</h4>
                     <h4 class="mb-2">Descripcion</h4>
                     <h4 class="mb-1">Porciones</h4>
@@ -112,11 +108,11 @@
                     <h5 class="bg-light Inner-border2">Tiempo de preparacion</h5>
                 </div>
                 <div class="col">
-                    
+
                     <h5 class="bg-light Inner-border2">Tiempo de coccion</h5>
                 </div>
                 <div class="col">
-            
+
                     <h5 class="bg-light Inner-border2">Tiempo total</h5>
                 </div>
             </div>
@@ -143,33 +139,83 @@
             </div>
 
             <div class="row m-3 ">
-            <div class="form-group col">
-                <h5>Nivel de complejidad</h5>
-                <h5 class="bg-light Inner-border2">Nivel</h5>
-            </div>
+                <div class="form-group col">
+                    <h5>Nivel de complejidad</h5>
+                    <h5 class="bg-light Inner-border2">Nivel</h5>
+                </div>
 
-            <div class="form-group col">
-                <h5>Categoria de la receta</h5>
-                <h5 class="bg-light Inner-border2">Categoria</h5>
-            </div>
+                <div class="form-group col">
+                    <h5>Categoria de la receta</h5>
+                    <h5 class="bg-light Inner-border2">Categoria</h5>
+                </div>
 
-            <div class="form-group col">
-                <h5>Ocasion para la receta</h5>
-                <h5 class="bg-light Inner-border2">Ocasion</h5>
-            </div>
-           
-        </div>
+                <div class="form-group col">
+                    <h5>Ocasion para la receta</h5>
+                    <h5 class="bg-light Inner-border2">Ocasion</h5>
+                </div>
+                <div>
+                    <script language="javascript">
+                        var i = 0;
 
-            <div class="form-group m-5">
-                AGREGAR SLIDERS
-            </div>
+                        function contador() {
+                            i = i + 1;
+                            var btn = document.getElementById("boton");
+                            btn.value = "Me gusta (" + i + ")";
+                        }
+                    </script>
 
-        </div>
+                    <a href="" onclick="javascript: contador()"> <img class="btnLike m-3" src="/recetario/img/like.png"
+                            alt=""></a>
+                </div>
+
+                
+
+
+            <div class="container overflow-hidden">
+                <div class="row gy-5">
+                  <div class="col-4">
+                    <div class="p-3 ">
+                        <div class="col card-bgcard p-3 ">
+                            <img class="img-thumbnail imagen-fondo-card " alt="" src="../recetario/img/receta1.jpg">
+                                <h4>Mucha comida</h4>
+                                <p>orem laoreet diam, et lacinia ipsum eros nec velit. Sed
+                                    fringilla leo lacinia leo
+                                    convallis</p>  
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="p-3 ">
+                        <div class="col card-bgcard p-3 ">
+                            <img class="img-thumbnail imagen-fondo-card " alt="" src="../recetario/img/receta1.jpg">
+                                <h4>Mucha comida</h4>
+                                <p>orem laoreet diam, et lacinia ipsum eros nec velit. Sed
+                                    fringilla leo lacinia leo
+                                    convallis</p>  
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="p-3 ">
+                        <div class="col card-bgcard p-3 ">
+                            <img class="img-thumbnail imagen-fondo-card " alt="" src="../recetario/img/receta1.jpg">
+                                <h4>Mucha comida</h4>
+                                <p>orem laoreet diam, et lacinia ipsum eros nec velit. Sed
+                                    fringilla leo lacinia leo
+                                    convallis</p>  
+                        </div>
+                    </div>
+                  </div>
+                 
+                </div>
+              </div>
+
+
 
     </section>
 
 
-    <footer class=" fixed-bottom footerCSS text-white">
+    <footer class=" fixed-bottom footerCSS text-white mt-5">
         <div class="container ">
             <div class="wrapperCSS">
                 <img class="mt-3" src="img/indentificador.png" height="60" width="200" alt="">
