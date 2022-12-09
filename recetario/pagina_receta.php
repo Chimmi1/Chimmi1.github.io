@@ -54,17 +54,16 @@ if (isset($_GET['id'])) {
                     
                 </div>
 
-                <div class="col-3 ">
+                <div class="col-10 ">
                     <h4 class="mb-1">Titulo de la receta</h4>
+                    <h4 class="bg-light Inner-border"><?php echo $titulo ?></h4>
                     <h4 class="mb-2">Descripcion</h4>
+                    <p class="bg-light Inner-border"><?php echo $descripcion ?></p>
                     <h4 class="mb-1">Porciones</h4>
+                    <h5 class="bg-light Inner-border"><?php echo $porciones ?></h5>
 
                 </div>
-                <div class="col-7">
-                    <h4 class="bg-light Inner-border"><?php echo $titulo ?></h4>
-                    <p class="bg-light Inner-border"><?php echo $descripcion ?></p>
-                    <h5 class="bg-light Inner-border"><?php echo $porciones ?></h5>
-                </div>
+             
             </div>
 
             <div class="row">
