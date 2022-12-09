@@ -22,34 +22,33 @@ include("includes/header.php");
 </head>
 
 <body>
-
-    <section class="container " >
-        <div class=" d-flex tableUser text-center m-5 "> 
-        <h2>Recetas guardadas</h2>
-        <table class="table table-responsive-md">
+    <section class="container bg-color Inner-border2 p-5 fixmid " >
+        <div class="tableUser text-center "> 
+          <h2 class="text-center text-light mb-3">Recetas guardadas</h2>  
+        <table class="table table-responsive-md ">
             <thead>
               <tr>
-                <th scope="col">#</th>
-                <th scope="col">Platillo</th>
-                <th scope="col">Titulo</th>
-                <th scope="col">Descripcion</th>
+                <th >#</th>
+                <th >Platillo</th>
+                <th >Titulo</th>
+                <th>Descripcion</th>
               </tr>
             </thead>
             <tbody>
               <tr >
-                <th scope="row">1</th>
+                <th >1</th>
                 <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
                 <td>Sopa</td>
                 <td>Hecha de salsas</td>
               </tr>
               <tr>
-                <th scope="row">2</th>
+                <th >2</th>
                 <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
                 <td>Sopa</td>
                 <td>Hecha de salsas</td>
               </tr>
               <tr>
-                <th scope="row">3</th>
+                <th >3</th>
                 <td><img src="../recetario/img/receta1.jpg" height="100" alt=""></td>
                 <td>Sopa</td>
                 <td>Hecha de salsas</td>

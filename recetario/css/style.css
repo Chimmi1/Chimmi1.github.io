@@ -21,11 +21,14 @@
     margin-left: 3em;
 }
 
-.navCenter{
-    text-align: center;
+.fixmid{
+margin-top: 5%;    
 }
 
-
+.btnLike{
+    border: none;
+    width: 80px;
+}
 
 .btnItem {
     background-color: #ffb6af;
@@ -39,6 +42,16 @@
     position: relative;
     background-position: center;
     background-size: cover;
+}
+
+.carousel-item2 {
+    height: 35rem;
+    background: #000;
+    margin-top: 6rem;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
 }
 
 .carouselContainer {
@@ -105,7 +118,6 @@
     min-height: 100vh;
 }
 
-
 .width-form{
 width: 70%;
 height: 70%;;
@@ -126,6 +138,12 @@ background-color: #ededaf;
     border-radius: 2rem;
     font-size: large;
 }
+
+.centernav{
+margin-left: 20%;
+margin-right: 20%;
+}
+
 
 .Inner-border2 {
     border-radius: 2rem;
@@ -170,6 +188,12 @@ background-color: #ededaf;
 
 .topRecetasSideCSS {
     background: #c7f6d4;
+}
+
+.card-bgcard{
+background-color: #fcfcda;
+border-radius: 2rem;
+
 }
 
 .aDecoration {
@@ -275,3 +299,4 @@ body{
 @media(max-width:768px) {}
 
 @media(max-width:450px) {}
+

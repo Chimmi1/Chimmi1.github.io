@@ -54,7 +54,7 @@ if (isset($_GET['id'])) {
                     
                 </div>
 
-                <div class="col-3 " >
+                <div class="col-3 ">
                     <h4 class="mb-1">Titulo de la receta</h4>
                     <h4 class="mb-2">Descripcion</h4>
                     <h4 class="mb-1">Porciones</h4>
@@ -142,7 +142,7 @@ if (isset($_GET['id'])) {
     </section>
 
 
-    <footer class=" fixed-bottom footerCSS text-white">
+    <footer class=" fixed-bottom footerCSS text-white mt-5">
         <div class="container ">
             <div class="wrapperCSS">
                 <img class="mt-3" src="img/indentificador.png" height="60" width="200" alt="">
