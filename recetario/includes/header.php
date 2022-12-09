@@ -4,7 +4,7 @@ include("session.php");
 
 
     <nav class="navbarCSS navbar fixed-top navbar-expand-md navbar-dark">
-        <div class="container">
+        <div class="container centernav">
             <a href="index.php" class="navbar-brand mb-0">
                 <img class="d-inline-block align-top" src="../recetario/img/indentificador.png" width="200" height="60" />
             </a>
