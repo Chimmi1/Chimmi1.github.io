@@ -73,9 +73,9 @@ if (isset($_POST['actualizar'])) {
         "paso1" => $paso1,
         "paso2" => $paso2,
         "paso3" => $paso3,
-        "ingradiente1" => $ingrediente1,
-        "ingradiente2" => $ingrediente2,
-        "ingradiente3" => $ingrediente3,
+        "ingrediente1" => $ingrediente1,
+        "ingrediente2" => $ingrediente2,
+        "ingrediente3" => $ingrediente3,
     ], [
         "id" => $id
     ]);
