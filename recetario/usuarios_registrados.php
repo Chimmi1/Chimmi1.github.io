@@ -34,8 +34,8 @@ include("includes/header.php");
                             <th>Perfil</th>
                             <th></th>
                             <th>
-                                <a href="frm_usuario.php" class="btn btn-primary">
-                                    <i class="far fa-save"></i>
+                                <a href="frm_usuario.php" class="btn btn-outline-primary">
+                                    <i class="far fa-save textbtn">Agregar</i>
                                 </a>
                             </th>
                         </tr>
@@ -50,13 +50,13 @@ include("includes/header.php");
                                 <td><?php echo $result[$i]['contra'] ?></td>
                                 <td><?php echo $result[$i]['perfil'] ?></td>
                                 <td>
-                                    <a href="editar_usuario.php?id=<?php echo $result[$i]['id']; ?>" class="btn btn-secondary">
-                                        <i class="far fa-edit"></i>
+                                    <a href="editar_usuario.php?id=<?php echo $result[$i]['id']; ?>" class="btn btn-outline-info">
+                                        <i class="far fa-edit textbtn">Editar</i>
                                     </a>
                                 </td>
                                 <td>
-                                    <a href="eliminar_usuario.php?id=<?php echo $result[$i]['id']; ?>" class="btn btn-danger">
-                                        <i class="far fa-trash-alt"></i>
+                                    <a href="eliminar_usuario.php?id=<?php echo $result[$i]['id']; ?>" class="btn btn-outline-danger">
+                                        <i class="far fa-trash-alt textbtn">Eliminar</i>
                                     </a>
                                 </td>
                             </tr>
